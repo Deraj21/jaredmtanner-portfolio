@@ -10,10 +10,10 @@ I used:
 - this portfolio template, which I turned into a react app: https://github.com/bmorelli25/portfolio-template
 
 #### To do:
-[x] get up and running
-[x] copy-paste portfolio template html
-[x] convert to react app
-[x] fill data.js with dummy data
-[] update data.js
-[] fix logo display issues
-[] fix projects display issues
+- [x] get up and running
+- [x] copy-paste portfolio template html
+- [x] convert to react app
+- [x] fill data.js with dummy data
+- [] update data.js
+- [] fix logo display issues
+- [] fix projects display issues
