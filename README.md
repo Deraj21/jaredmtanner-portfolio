@@ -14,6 +14,6 @@ I used:
 - [x] copy-paste portfolio template html
 - [x] convert to react app
 - [x] fill data.js with dummy data
-- [] update data.js
-- [] fix logo display issues
-- [] fix projects display issues
+- [ ] update data.js
+- [ ] fix logo display issues
+- [ ] fix projects display issues
