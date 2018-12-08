@@ -12,6 +12,11 @@ export default function Footer(props) {
         </div>
         <div className="content-body">
           <p>{`Copyright ${name.first} ${name.last} ${currentYear}`}</p>
+          <p>Created using React, gh-pages, and create-react-app</p>
+          <a
+            target="_blank"
+            href="https://github.com/Deraj21/jaredmtanner-portfolio"
+          >github link</a>
         </div>
       </div>
       <div className="side-content"></div>
