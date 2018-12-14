@@ -191,14 +191,18 @@ h4 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
 }
 
-.project-image {
+.project-image-box {
   flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  /* width: 300px; */
 }
 
-.project-image img {
+.project-image-box img {
   display: block;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  max-width: 400px;
 }
 
 .project-content {
@@ -272,5 +276,20 @@ h4 {
 
 .white-text {
   color: white;
+}
+
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 200px;
+}
+
+.github-logo {
+  background-image: url('./media/GitHub_Logo_White.png');
+}
+
+.linkedin-logo {
+  background-image: url('./media/Logo-White-48px-TM.png');
 }
 

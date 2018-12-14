@@ -40,9 +40,9 @@ const data = {
     }
   ],
   projects: [
-    {
+    { // Hangman
       name: "Hangman",
-      image: "https://www.englishclub.com/images/esl-games/hangman-150.png",
+      image: "hangman",
       description: [
         "Personal Project",
         "This website is a hangman game wrapped up with user rankings and fun word categories to choose from. It allows for a user to log in, play some hangman games, and then compare their scores with other players.",
@@ -53,7 +53,7 @@ const data = {
       ],
       links: [
         {
-          url: "https://github.com",
+          url: "https://github.com/Deraj21/hangman-website",
           text: "Github Page"
         },
         {
@@ -62,9 +62,9 @@ const data = {
         }
       ]
     },
-    {
+    { // Trello Clone
       name: "Trello Clone",
-      image: "https://www.englishclub.com/images/esl-games/hangman-150.png",
+      image: "trello",
       description: [
         "Group Project",
         "This project is a clone of the popular time-management tool, Trello.com. We wanted to see how far we could get into building an enterprise app between the three of us over the course of four weeks.",
@@ -82,9 +82,9 @@ const data = {
         }
       ]
     },
-    {
+    { // DnD
       name: "D&D Character Generator",
-      image: "https://www.englishclub.com/images/esl-games/hangman-150.png",
+      image: "dnd",
       description: [
         "Personal Project",
         "This project comes from my love of the role-playing game Dungeons and Dragons. I wanted a quick way to generate some random character stats to get ideas flowing for players wanting to make a character. So I built this!",

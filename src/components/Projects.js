@@ -1,20 +1,41 @@
 import React from 'react';
+import hangmanImg from '../media/hangman-phone-game.png';
+import dndImg from "../media/dnd-char-gen.png";
+import trelloImg from "../media/trello-board-view.png";
 
 export default function Projects(props) {
-
+  
   let { projects } = props;
-  let projectCards = projects.map((project, i) => (
+  let projectCards = projects.map((project, i) => {
+    console.log(project.image);
+    let imageText = project.image;
+    return (
     <div className="project-card" key={i} >
-      <div className="project-image">
-        <img src={project.image}/>
+      <div className="project-image-box">
+      {
+        project.image === "hangman"
+        ?
+        <img src={hangmanImg} />
+        :
+        project.image === "trello"
+        ?
+        <img src={trelloImg} />
+        :
+        project.image === "dnd"
+        ?
+        <img src={dndImg} />
+        :
+        <img src="http://placehold.it/200x200" />
+      }
       </div>
       <div className="project-content">
-        <h4>{project.name}</h4>
+        <h3>{project.name}</h3>
         { project.description.map( (str, i) => <p key={i}>{str}</p> ) }
         { project.links.map( (link, i) => <a key={i} target="_blank" href={link.url}> {link.text} </a> ) }
       </div>
     </div>
-  ) );
+    );
+     } );
 
   return (
     <div className="row">

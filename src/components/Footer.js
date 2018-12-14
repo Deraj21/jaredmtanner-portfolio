@@ -15,7 +15,7 @@ export default function Footer(props) {
           <p>
             <span>Created using React, gh-pages, and create-react-app</span>
             {" | "}
-            <a target="_blank" href="https://github.com/Deraj21/jaredmtanner-portfolio/tree/master">github link</a>
+            <a target="_blank" href="https://github.com/Deraj21/jaredmtanner-portfolio/tree/master">code on github</a>
           </p>
         </div>
       </div>

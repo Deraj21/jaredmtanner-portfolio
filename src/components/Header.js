@@ -14,12 +14,12 @@ export default function Header(props) {
         <ul className="ul-social">
           <li className="li-social-links">
             <a className="social" href={links.github} target="_blank">
-              <img src='media/GitHub_Logo_White.png' alt="github"/>
+              <div className="logo github-logo"></div>
             </a>
           </li>
           <li className="li-social-links">
             <a className="social" href={links.linkedin} target="_blank">
-            <img src="../media" alt="linkedin"/>
+            <div className="logo linkedin-logo"></div>
             </a>
           </li>
         </ul>
