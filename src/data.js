@@ -73,7 +73,7 @@ const data = {
       ],
       links: [
         {
-          url: "https://github.com/trello-clone-group/trello-clone",
+          url: "https://github.com/Deraj21/trello-clone",
           text: "Github Page"
         },
         {
