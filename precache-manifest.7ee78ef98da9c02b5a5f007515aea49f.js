@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/jaredmtanner-portfolio/static/js/runtime~main.d116308c.js"
   },
   {
-    "revision": "b7e1fc0e1eefd64bb619",
-    "url": "/jaredmtanner-portfolio/static/js/main.b7e1fc0e.chunk.js"
+    "revision": "9bcc10d96895a827a706",
+    "url": "/jaredmtanner-portfolio/static/js/main.9bcc10d9.chunk.js"
   },
   {
     "revision": "5e440350d73918ecad1d",
     "url": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js"
   },
   {
-    "revision": "b7e1fc0e1eefd64bb619",
-    "url": "/jaredmtanner-portfolio/static/css/main.35b80108.chunk.css"
+    "revision": "9bcc10d96895a827a706",
+    "url": "/jaredmtanner-portfolio/static/css/main.42bcf184.chunk.css"
   },
   {
-    "revision": "0e01f46b6558ae5894ce444adfa1c8f6",
+    "revision": "a2f0d91eb320dd8faa650d55367c874c",
     "url": "/jaredmtanner-portfolio/index.html"
   }
 ];
