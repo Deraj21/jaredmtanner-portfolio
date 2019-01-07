@@ -14,8 +14,16 @@ const data = {
   title: "Full-Stack Web Developer",
   city: "Mesa",
   state: "AZ",
+  navbar: {
+    links: [
+      { text: "About", ref: "#about" },
+      { text: "Projects", ref: "#projects" },
+      { text: "Skills", ref: "#skills" },
+      { text: "Contact", ref: "#contact" }
+    ]
+  },
   about: [
-    "I am a React.js, full-stack web developer. I currently work very hard at my maintenance job while working to break into the software field.", //
+    "I am full-stack web developer.", //
     "I enjoy learning new things in order to develop my skill-set, and improve the technology I am working on.", //
     "Formidable problems are my jam. The rush of sitting down to solve an enigma is one of the reasons I became a software engineer. I enjoy the challenge, struggle, and eventual victory that comes with writing code.", //
     "The main reason, however, for wanting to get into software engineering, is so that I can build something worthwhile. My dream is to work building something great, with amazing individuals." //

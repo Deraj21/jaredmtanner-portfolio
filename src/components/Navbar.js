@@ -1,15 +1,17 @@
 import React from 'react';
+import data from '../data';
 
 export default function Navbar() {
 
+  let { navbar } = data;
+
+  const navLinks = navbar.links.map( link => (
+    <a href={link.ref}>{link.text}</a>
+  ));
+
   return (
     <div className="navbar">
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      { navLinks }
     </div>
   );
 }
