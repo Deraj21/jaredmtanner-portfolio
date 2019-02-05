@@ -2,13 +2,18 @@ import React from 'react';
 
 export default function Header(props) {
 
-  let { name, links, title, city, state } = props;
+  let { name, links, title, city, state, phoneNum, email } = props;
 
   return (
     <div className="jumbotron">
       <div className="jumbotron-text">
         <h1>{name.first} {name.last}</h1>
         <p>{title} in {city}, {state}.</p>
+      </div>
+      {/* contact info */}
+      <div className="contact-info">
+        <span>{email}</span>
+        <span>{phoneNum}</span>
       </div>
       <div className="jumbotron-social">
         <ul className="ul-social">

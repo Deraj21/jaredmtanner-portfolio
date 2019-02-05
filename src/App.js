@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 import data from './data';
-let { name, links, title, city, state, jobs, about, schools, projects, skills, email, currentYear } = data;
+let { name, links, title, city, state, jobs, about, schools, projects, skills, phoneNum, email, currentYear } = data;
 
 class App extends Component {
   render() {
@@ -19,11 +19,11 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <div className="container">
-          <Header name={name} links={links} title={title} city={city} state={state}/>
+          <Header name={name} links={links} title={title} city={city} state={state} email={email} phoneNum={phoneNum}/>
           <About about={about}/> {/* w */}
           <Projects projects={projects}/> {/* g */}
           <Skills skills={skills}/> {/* w */}
-          <Contact email={email}/>
+          <Contact email={email} phoneNum={phoneNum}/>
           <Footer currentYear={currentYear} name={name}/>
         </div>
       </div>

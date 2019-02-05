@@ -46,6 +46,7 @@ body {
   flex-direction: column;
 }
 
+
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
@@ -53,6 +54,23 @@ body {
   color: white;
   text-align: center;
   padding-top: 150px;
+}
+
+.contact-info {
+  font-weight: 400;
+  font-size: 1.75em;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+}
+.contact-info > span {
+  margin: 0px 20px;
+}
+.small {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+
 }
 
 .jumbotron-text h1 {
@@ -119,7 +137,7 @@ body {
 .main-content {
   flex: 0 0 66.6%;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .side-content-sm {
@@ -257,6 +275,10 @@ h4 {
   color: #fff;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
+}
+
+.contact input::placeholder, .contact textarea::placeholder {
+  color: rgb(199, 199, 199);
 }
 
 .contact textarea {
