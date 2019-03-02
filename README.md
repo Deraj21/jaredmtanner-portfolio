@@ -17,8 +17,8 @@ I used:
 - [x] convert to react app
 - [x] fill data.js with dummy data
 - [x] update data.js
-- [ ] fix logo display issues
-- [ ] fix projects display issues
+- [x] fix logo display issues
+- [x] fix projects display issues
 
 
 -------------------------------------------------------------------------------------------------------
