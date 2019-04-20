@@ -1,6 +1,6 @@
 import React from 'react';
 import hangmanImg from '../media/hangman-phone-game.png';
-import dndImg from "../media/dnd-char-gen.png";
+import dndImg from "../media/dnd-screenshot.JPG";
 import trelloImg from "../media/trello-board-view.png";
 
 export default function Projects(props) {

@@ -44,10 +44,29 @@ const data = {
       link: "https://www.youracclaim.com/badges/ba6c4cdf-ae62-47ab-be84-8d5abafe502d/linked_in_profile",
       startDate: "March 2018",
       endDate: "September 2018",
-      description: "Web dev online courseasdf ;laskdjf ; lasdfj asdf;lkj"
+      description: "Web Development online bootcamp"
     }
   ],
   projects: [
+    { // DnD
+      name: "D&D Character Sheet Creator",
+      image: "dnd",
+      description: [
+        "Personal Project",
+        "This project comes from my love of the role-playing game Dungeons and Dragons. I wanted a quick way to generate a random character to get ideas flowing for players wanting to make characters. So I built this!",
+        "Built using React.js, it has a bare-bones single-page design. I mimicked the look of a Dungeon and Dragons character sheet when styling the site. I recently revisited this project to update the style; I learned a few CSS tricks, and got to know CSS3 really well. I also added functionality to print the character sheet, for use in-game. It is hosted using Github Pages. I hope you enjoy!"
+      ],
+      links: [
+        {
+          text: "Try it Out!",
+          url: "https://deraj21.github.io/dnd-character-creator/"
+        },
+        {
+          text: "View the code",
+          url: "https://github.com/Deraj21/dnd-character-creator/tree/master"
+        }
+      ]
+    },
     { // Hangman
       name: "Hangman",
       image: "hangman",
@@ -89,31 +108,15 @@ const data = {
           text: "Video Walkthrough"
         }
       ]
-    },
-    { // DnD
-      name: "D&D Character Generator",
-      image: "dnd",
-      description: [
-        "Personal Project",
-        "This project comes from my love of the role-playing game Dungeons and Dragons. I wanted a quick way to generate some random character stats to get ideas flowing for players wanting to make a character. So I built this!",
-        "It was built using React for the front-end and Node for the back-end. Node stores all the possible values for each stat, and with an Axios request from React, it sends them to it. React then randomly chooses one from each list, and displays it.",
-        "It has a bare-bones single-page design. I mimicked the look of a Dungeon and Dragons character sheet. Since it was my first full project, I learned a lot about CSS and flexboxes.",
-      ],
-      links: [
-        {
-          text: "Github Page",
-          url: "https://github.com/Deraj21/dnd-character-generator"
-        }
-      ]
     }
   ],
   skills: [
     "React.js",
-    "AngularJS",
-    "ES6",
-    "HTML",
-    "CSS",
     "Node.js",
+    "Javasript (ES6)",
+    "HTML5",
+    "CSS3",
+    "Sass",
     "SQL",
     "Git",
     "Github",
