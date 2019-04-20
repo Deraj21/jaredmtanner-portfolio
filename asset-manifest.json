@@ -1,7 +1,7 @@
 {
   "main.css": "/jaredmtanner-portfolio/static/css/main.47fd4bc6.chunk.css",
-  "main.js": "/jaredmtanner-portfolio/static/js/main.95ebb351.chunk.js",
-  "main.js.map": "/jaredmtanner-portfolio/static/js/main.95ebb351.chunk.js.map",
+  "main.js": "/jaredmtanner-portfolio/static/js/main.55e9366c.chunk.js",
+  "main.js.map": "/jaredmtanner-portfolio/static/js/main.55e9366c.chunk.js.map",
   "static/js/1.5e440350.chunk.js": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js",
   "static/js/1.5e440350.chunk.js.map": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js.map",
   "runtime~main.js": "/jaredmtanner-portfolio/static/js/runtime~main.d116308c.js",
@@ -9,9 +9,9 @@
   "static/media/hangman-phone-game.png": "/jaredmtanner-portfolio/static/media/hangman-phone-game.9ddb1a8b.png",
   "static/media/trello-board-view.png": "/jaredmtanner-portfolio/static/media/trello-board-view.38c75a10.png",
   "static/media/App.css": "/jaredmtanner-portfolio/static/media/GitHub_Logo_White.064ace47.png",
-  "static/media/dnd-char-gen.png": "/jaredmtanner-portfolio/static/media/dnd-char-gen.ad71dee3.png",
+  "static/media/dnd-screenshot.JPG": "/jaredmtanner-portfolio/static/media/dnd-screenshot.1603604c.JPG",
   "static/css/main.47fd4bc6.chunk.css.map": "/jaredmtanner-portfolio/static/css/main.47fd4bc6.chunk.css.map",
   "index.html": "/jaredmtanner-portfolio/index.html",
-  "precache-manifest.a498cfe6320a235e5120511699f1a113.js": "/jaredmtanner-portfolio/precache-manifest.a498cfe6320a235e5120511699f1a113.js",
+  "precache-manifest.c6d630f358d28cc05db804290746bdbf.js": "/jaredmtanner-portfolio/precache-manifest.c6d630f358d28cc05db804290746bdbf.js",
   "service-worker.js": "/jaredmtanner-portfolio/service-worker.js"
 }

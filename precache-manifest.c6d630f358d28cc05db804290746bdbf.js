@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/jaredmtanner-portfolio/static/media/hangman-phone-game.9ddb1a8b.png"
   },
   {
-    "revision": "ad71dee3750f2803d7654789d5c0a118",
-    "url": "/jaredmtanner-portfolio/static/media/dnd-char-gen.ad71dee3.png"
+    "revision": "1603604cba3dfd4bfef140c83bb212cb",
+    "url": "/jaredmtanner-portfolio/static/media/dnd-screenshot.1603604c.JPG"
   },
   {
     "revision": "064ace4777ac86d7627f455f36975452",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/jaredmtanner-portfolio/static/js/runtime~main.d116308c.js"
   },
   {
-    "revision": "95ebb3512e85df2c368b",
-    "url": "/jaredmtanner-portfolio/static/js/main.95ebb351.chunk.js"
+    "revision": "55e9366cab5523e228a9",
+    "url": "/jaredmtanner-portfolio/static/js/main.55e9366c.chunk.js"
   },
   {
     "revision": "5e440350d73918ecad1d",
     "url": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js"
   },
   {
-    "revision": "95ebb3512e85df2c368b",
+    "revision": "55e9366cab5523e228a9",
     "url": "/jaredmtanner-portfolio/static/css/main.47fd4bc6.chunk.css"
   },
   {
-    "revision": "f157ff96bcdb98e82839f990274b423f",
+    "revision": "a959c940c4b13ac02875f6c390eae6c4",
     "url": "/jaredmtanner-portfolio/index.html"
   }
 ];
