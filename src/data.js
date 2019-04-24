@@ -80,12 +80,12 @@ const data = {
       ],
       links: [
         {
-          url: "https://github.com/Deraj21/hangman-website",
-          text: "Github Page"
+          url: "https://mysterious-waters-17864.herokuapp.com",
+          text: "Try it Out!"
         },
         {
-          url: "https://www.youtube.com/watch?v=_AAaCuGeVjE",
-          text: "Video Walkthrough"
+          url: "https://github.com/Deraj21/hangman-website",
+          text: "Github Page"
         }
       ]
     },
