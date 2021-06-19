@@ -1,4 +1,5 @@
 import React from 'react';
+import family_photo from '../media/rj-honeymoon.jpg'
 
 export default function About(props) {
 
@@ -13,11 +14,15 @@ export default function About(props) {
           <a className="anchor" name="about"></a>
           <h2>About Me</h2>
         </div>
-        <div className="content-body">
-          { aboutParagraphs }
+        <div className="content-body about-content">
+          <div className="about-description" >
+            { aboutParagraphs }
+          </div>
+          <img src={family_photo} alt="family"/>
         </div>
       </div>
-      <div className="side-content"></div>
+      <div className="side-content">
+      </div>
     </div>
   );
 }

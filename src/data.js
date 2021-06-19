@@ -23,10 +23,10 @@ const data = {
     ]
   },
   about: [
-    "I am full-stack web developer.", //
-    "I enjoy learning new things in order to develop my skill-set, and improve the technology I am working on.", //
-    "Formidable problems are my jam. The rush of sitting down to solve an enigma is one of the reasons I became a software engineer. I enjoy the challenge, struggle, and eventual victory that comes with writing code.", //
-    "The main reason, however, for wanting to get into software engineering, is so that I can build something worthwhile. My dream is to work building something great, with amazing individuals." //
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", //
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", //
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", //
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." //
   ],
   jobs: [
     {
