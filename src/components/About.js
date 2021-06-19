@@ -11,7 +11,7 @@ export default function About(props) {
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <a className="anchor" name="about"></a>
+          <a className="anchor" name="about" href="google.com"> <p>placeholder content (goes to google for now)</p> </a>
           <h2>About Me</h2>
         </div>
         <div className="content-body about-content">
