@@ -3,16 +3,16 @@ import data from '../data';
 
 export default function Navbar() {
 
-  let { navbar } = data;
+    let { navbar } = data;
 
-  const navLinks = navbar.links.map( link => (
-    <a href={link.ref}>{link.text}</a>
-  ));
+    const navLinks = navbar.links.map(link => (
+        <a key={link.ref} href={link.ref}>{link.text}</a>
+    ));
 
-  return (
-    <div className="navbar">
-      { navLinks }
-    </div>
-  );
+    return (
+        <div className="navbar">
+            {navLinks}
+        </div>
+    );
 }
 
