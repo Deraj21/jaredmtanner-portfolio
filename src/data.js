@@ -13,14 +13,6 @@ const data = {
     title: "Full-Stack Web Developer",
     city: "Mesa",
     state: "AZ",
-    navbar: {
-        links: [
-            { text: "About", ref: "#about" },
-            { text: "Projects", ref: "#projects" },
-            { text: "Skills", ref: "#skills" },
-            { text: "Contact", ref: "#contact" }
-        ]
-    },
     about: [
         "I am a problem solver. I really enjoy my work when I am given a problem to solve rather than a solution to code. I like sinking my teeth into a difficult challenge that makes me think outside the box, and find an innovative solution.",
 

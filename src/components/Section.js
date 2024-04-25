@@ -22,6 +22,7 @@ export default function Section(props) {
 
     return (
         <div className="Section">
+            <a className="anchor" name={props.anchor}></a>
             <Markdown value={markdownText}  />
         </div>
     )

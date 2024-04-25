@@ -16,16 +16,22 @@ let { name, links, title, city, state, jobs, about, schools, projects, skills, p
 
 class App extends Component {
     render() {
-        
+
         return (
             <div className="App">
                 <Navbar />
                 <div className="container">
                     <Header name={name} links={links} title={title} city={city} state={state} email={email} phoneNum={phoneNum} />
 
-                    <Section filePath="sections/about-me.md" />
-                    <About about={about} />
-                    <Projects projects={projects} /> {/* g */}
+                    <div className='sections' >
+                        <Section filePath="sections/about-me.md" anchor="about" />
+                        <Section filePath="sections/experience.md" anchor="experience" />
+                        <Section filePath="sections/projects.md" anchor="projects" />
+                    </div>
+
+
+                    {/* <About about={about} /> */}
+                    {/* <Projects projects={projects} /> */}
                     <Skills skills={skills} /> {/* w */}
                     <Contact email={email} phoneNum={phoneNum} />
                     <Footer name={name} />
