@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import About from './components/About';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -12,7 +8,7 @@ import Section from './components/Section'
 import './App.css';
 
 import data from './data';
-let { name, links, title, city, state, jobs, about, schools, projects, skills, phoneNum, email } = data;
+let { name, links, tagline, jobs, schools, skills, phoneNum, email } = data;
 
 class App extends Component {
     render() {
@@ -21,7 +17,7 @@ class App extends Component {
             <div className="App">
                 <Navbar />
                 <div className="container">
-                    <Header name={name} links={links} title={title} city={city} state={state} email={email} phoneNum={phoneNum} />
+                    <Header name={name} links={links} tagline={tagline} email={email} phoneNum={phoneNum} />
 
                     <div className='sections' >
                         <Section filePath="sections/about-me.md" anchor="about" />
@@ -29,10 +25,7 @@ class App extends Component {
                         <Section filePath="sections/projects.md" anchor="projects" />
                     </div>
 
-
-                    {/* <About about={about} /> */}
-                    {/* <Projects projects={projects} /> */}
-                    <Skills skills={skills} /> {/* w */}
+                    <Skills skills={skills} />
                     <Contact email={email} phoneNum={phoneNum} />
                     <Footer name={name} />
                 </div>

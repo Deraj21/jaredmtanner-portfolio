@@ -14,9 +14,9 @@ export default function Footer(props) {
                 <div className="content-body">
                     {/* <p>{`Copyright ${name.first} ${name.last} ${currentYear}`}</p> */}
                     <p>
-                        <span>Created using React, gh-pages, and create-react-app</span>
+                        <span>Created using React, hosted with github pages</span>
                         {" | "}
-                        <a target="_blank" href="https://github.com/Deraj21/jaredmtanner-portfolio/tree/master">code on github</a>
+                        <a target="_blank" href="https://github.com/Deraj21/jaredmtanner-portfolio/tree/master">view the code on github</a>
                     </p>
                 </div>
             </div>

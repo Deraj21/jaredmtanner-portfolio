@@ -1,5 +1,4 @@
 import React from 'react';
-import family_photo from '../media/tree-profile.jpg'
 
 export default function About(props) {
 
@@ -18,7 +17,6 @@ export default function About(props) {
                     <div className="about-description" >
                         {aboutParagraphs}
                     </div>
-                    <img src={family_photo} alt="family" />
                 </div>
             </div>
             <div className="side-content">

@@ -4,7 +4,7 @@
 ![profile](jaredmtanner-portfolio/images/tree-profile.jpg)
 
 **I am a problem solver.**
-I really enjoy my work when I am given a problem to solve rather than a solution to code. I like sinking my teeth into a difficult challenge that makes me think outside the box, and find an innovative solution.
+I really enjoy my work when I am given a problem to solve rather than a website to code. I like sinking my teeth into a difficult challenge that makes me think outside the box, and find an innovative solution.
 
 **I design solutions before writing a single line of code.**
 Breaking problems down helps me weed out bad solutions quickly, and minimizes the amount of back-tracking and wasted time.

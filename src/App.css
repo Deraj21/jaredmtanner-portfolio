@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: white;
     margin: 0;
 }
 
 * {
     box-sizing: border-box
+}
+
+p {
+    margin: 10px 0px;
 }
 
 .sections {
@@ -24,6 +30,10 @@ body {
     border-radius: 20px;
     box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
     max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Section p, .Section li {
@@ -32,8 +42,7 @@ body {
 }
 
 .Section img {
-    float: right;
-    margin-left: 20px;
+    box-shadow: 0px 5px 7px 0px rgb(219, 219, 219)
 }
 
 .Section {
@@ -45,11 +54,15 @@ body {
 }
 
 .Section img[alt=trello-clone] {
-    width: 600px;
+    width: 800px;
 }
 
 .Section img[alt=hangman] {
     width: 300px;
+}
+
+.Section img[alt=cryptid] {
+    width: 400px;
 }
 
 .Section img[alt=dnd] {
@@ -58,6 +71,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
+    font-family: sans-serif;
     background-color: #31b0d5;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -76,6 +90,11 @@ body {
     text-decoration: none;
 }
 
+.navlink:hover {
+    /* filter: brightness(150%); */
+    background-color: #10a7d1;
+}
+
 .anchor {
     display: block;
     position: relative;
@@ -86,11 +105,8 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
     height: 100vh;
-    /*height to 100% of view height*/
     background: #31b0d5;
-    /*background color to blue*/
     margin-bottom: 0;
-    /*no bottom margin*/
 
     display: flex;
     flex-direction: column;
@@ -209,7 +225,8 @@ body {
 }
 
 h2 {
-    font-weight: 200;
+    font-family: 'Schibsted Grotesk';
+    font-weight: 400;
     font-size: 2rem;
     color: #31b0d5;
     text-transform: uppercase;
@@ -373,8 +390,23 @@ h4 {
 .logo {
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
     width: 200px;
+    margin: 0px 10px;
+    transform: rotate(0deg);
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+
+.logo:hover {
+    transform: rotate(5deg);
+    transition-duration: .1s;
+    transition-timing-function: ease-out;
+}
+
+.github-logo:hover {
+    transform: rotate(-5deg);
 }
 
 .github-logo {
