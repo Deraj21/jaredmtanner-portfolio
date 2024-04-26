@@ -4,7 +4,7 @@
 
 
 ## D&D Character Sheet Creator
-[![dnd](jaredmtanner-portfolio/images/dnd-screenshot.jpg)](jaredmtanner-portfolio/images/dnd-screenshot.jpg)
+[![dnd](images/dnd-screenshot.jpg)](images/dnd-screenshot.jpg)
 
 [Try it Out!](https://deraj21.github.io/dnd-character-creator/) | 
 [View the code](https://github.com/Deraj21/dnd-character-creator/tree/master)
@@ -16,7 +16,7 @@ Built using React.js, it has a bare-bones single-page design. I mimicked the loo
 
 
 ## Cryptid Bot
-[![cryptid](jaredmtanner-portfolio/images/cryptid-setup-2.png)](jaredmtanner-portfolio/images/cryptid-setup-2.png)
+[![cryptid](images/cryptid-setup-2.png)](images/cryptid-setup-2.png)
 
 [try it out](https://deraj21.github.io/cryptid-bot/) | 
 [View the code](https://github.com/Deraj21/cryptid-bot)
@@ -29,7 +29,7 @@ This project features drag-and-drop board pieces to set up the game, components 
 
 
 ## Trello Clone
-[![trello-clone](jaredmtanner-portfolio/images/trello-board-view.png)](jaredmtanner-portfolio/images/trello-board-view.png)
+[![trello-clone](images/trello-board-view.png)](images/trello-board-view.png)
 
 
 This is a group project I did while attending DevMountain. It's a clone of the popular time-management tool, Trello.com. We wanted to see how far we could get into building an enterprise app between the three of us over the course of four weeks.
