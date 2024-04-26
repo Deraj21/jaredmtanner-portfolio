@@ -1,17 +1,14 @@
 {
-  "main.css": "/jaredmtanner-portfolio/static/css/main.47fd4bc6.chunk.css",
-  "main.js": "/jaredmtanner-portfolio/static/js/main.03797fbc.chunk.js",
-  "main.js.map": "/jaredmtanner-portfolio/static/js/main.03797fbc.chunk.js.map",
-  "static/js/1.5e440350.chunk.js": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js",
-  "static/js/1.5e440350.chunk.js.map": "/jaredmtanner-portfolio/static/js/1.5e440350.chunk.js.map",
-  "runtime~main.js": "/jaredmtanner-portfolio/static/js/runtime~main.d116308c.js",
-  "runtime~main.js.map": "/jaredmtanner-portfolio/static/js/runtime~main.d116308c.js.map",
-  "static/media/hangman-phone-game.png": "/jaredmtanner-portfolio/static/media/hangman-phone-game.9ddb1a8b.png",
-  "static/media/trello-board-view.png": "/jaredmtanner-portfolio/static/media/trello-board-view.38c75a10.png",
-  "static/media/App.css": "/jaredmtanner-portfolio/static/media/GitHub_Logo_White.064ace47.png",
-  "static/media/dnd-screenshot.JPG": "/jaredmtanner-portfolio/static/media/dnd-screenshot.1603604c.JPG",
-  "static/css/main.47fd4bc6.chunk.css.map": "/jaredmtanner-portfolio/static/css/main.47fd4bc6.chunk.css.map",
-  "index.html": "/jaredmtanner-portfolio/index.html",
-  "precache-manifest.ee04b7d230a025bdd734121e42c9ac4f.js": "/jaredmtanner-portfolio/precache-manifest.ee04b7d230a025bdd734121e42c9ac4f.js",
-  "service-worker.js": "/jaredmtanner-portfolio/service-worker.js"
+  "files": {
+    "main.css": "/jaredmtanner-portfolio/static/css/main.ce68fe01.css",
+    "main.js": "/jaredmtanner-portfolio/static/js/main.4082e931.js",
+    "static/media/GitHub_Logo_White.png": "/jaredmtanner-portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "index.html": "/jaredmtanner-portfolio/index.html",
+    "main.ce68fe01.css.map": "/jaredmtanner-portfolio/static/css/main.ce68fe01.css.map",
+    "main.4082e931.js.map": "/jaredmtanner-portfolio/static/js/main.4082e931.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce68fe01.css",
+    "static/js/main.4082e931.js"
+  ]
 }
