@@ -9,7 +9,5 @@ The 'gh-pages' contains the built version of the app.
 I used:
 - react-react-app
 - this tutorial: https://github.com/gitname/react-gh-pages/tree/master
+- markdown to html conversion tool https://github.com/sibiraj-s/marked-react
 - this portfolio template, which I turned into a react app: https://github.com/bmorelli25/portfolio-template
-
-I want to use:
-- https://github.com/sibiraj-s/marked-react
