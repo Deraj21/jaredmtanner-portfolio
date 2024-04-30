@@ -1,4 +1,3 @@
-
 @use 'global.scss';
 
 @use 'Navbar.scss';
@@ -6,6 +5,7 @@
 @use 'Section.scss';
 @use 'Skills.scss';
 @use 'Contact.scss';
+@import 'vars.scss';
 
 .container {
     /*sets up flexbox*/
@@ -72,4 +72,8 @@
 .content-body {
     line-height: 1.5;
     color: rgba(0, 0, 0, .75);
+}
+
+@media (max-width: $size-tablet) {
+    
 }
