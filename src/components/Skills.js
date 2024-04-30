@@ -8,7 +8,7 @@ export default function Skills(props) {
     ));
 
     return (
-        <div className="row white box-shadow">
+        <div className="Skills row white box-shadow">
             <div className="side-content"></div>
             <div className="main-content">
                 <div className="content-header">

@@ -1,0 +1,23 @@
+.Navbar {
+    font-family: sans-serif;
+    background-color: #31b0d5;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    display: flex;
+    justify-content: center;
+
+    a {
+        font-weight: 200;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navlink:hover {
+        background-color: #10a7d1;
+    }
+}

@@ -1,0 +1,49 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section {
+    margin: 20px 100px;
+    padding: 40px 80px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+
+    p, li {
+        color: rgb(32, 32, 32);
+        line-height: 150%;
+    }
+
+    img {
+        box-shadow: 0px 5px 7px 0px rgb(219, 219, 219)
+    }
+    
+    img[alt=profile] {
+        width: 280px;
+    }
+    
+    img[alt=trello-clone] {
+        width: 800px;
+    }
+    
+    img[alt=hangman] {
+        width: 300px;
+    }
+    
+    img[alt=cryptid] {
+        width: 400px;
+    }
+    
+    img[alt=dnd] {
+        width: 300px;
+    }
+
+
+}

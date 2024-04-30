@@ -1,0 +1,75 @@
+
+@use 'global.scss';
+
+@use 'Navbar.scss';
+@use 'Header.scss';
+@use 'Section.scss';
+@use 'Skills.scss';
+@use 'Contact.scss';
+
+.container {
+    /*sets up flexbox*/
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.contact-info>span {
+    margin: 0px 20px;
+}
+
+.small {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+
+}
+
+.row {
+    display: flex;
+}
+
+.white {
+    background: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.blue {
+    background: #3498db;
+    text-align: center;
+}
+
+.side-content {
+    flex: 0 0 16.6%;
+}
+
+.main-content {
+    flex: 0 0 66.6%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.side-content-sm {
+    flex: 0 0 10%;
+}
+
+.main-content-lg {
+    flex: 0 0 80%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.content-body {
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .75);
+}

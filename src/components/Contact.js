@@ -5,7 +5,7 @@ export default function Contact(props) {
     let { email, phoneNum } = props;
 
     return (
-        <div className="row blue">
+        <div className="Contact row blue">
             <div className="side-content"></div>
             <div className="main-content">
                 <div className="content-header">
@@ -16,7 +16,7 @@ export default function Contact(props) {
                     <span>{email}</span>{"  |  "}
                     <span>{phoneNum}</span>
                 </div>
-                <div className="contact content-body">
+                <div className="contact-form content-body">
                     <form method="POST" action={`https://formspree.io/${email}`}>
                         <input type="hidden" name="_subject" value="Contact request from personal website" />
                         <input type="email" name="_replyto" placeholder="Your email" required />

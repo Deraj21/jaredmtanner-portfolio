@@ -29,9 +29,9 @@ export default function Header(props) {
                     </li>
                 </ul>
             </div>
-            <div id="down-arrow">
+            {/* <div id="down-arrow">
                 <span><a href="#about"><i className="fa fa-chevron-down" aria-hidden="true"></i></a></span>
-            </div>
+            </div> */}
         </div>
     );
 }

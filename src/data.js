@@ -1,4 +1,5 @@
 const data = {
+    LOCAL_MODE: false,
     name: {
         first: "Jared",
         middle: "Michael",
