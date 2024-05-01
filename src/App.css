@@ -37,6 +37,7 @@ h2 {
   /* Full width */
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 .Navbar a {
   font-weight: 200;
@@ -84,9 +85,6 @@ h2 {
   padding: 20px;
 }
 .jumbotron .logo {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 1.5em;
   margin: 0px 10px;
   transform: rotate(0deg);
@@ -154,6 +152,7 @@ h2 {
 }
 .Section img {
   box-shadow: 0px 5px 7px 0px #dbdbdb;
+  max-width: 100%;
 }
 .Section img[alt=profile] {
   width: 280px;

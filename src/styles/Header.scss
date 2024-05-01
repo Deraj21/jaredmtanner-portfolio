@@ -43,12 +43,13 @@
     }
 
     .logo {
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // background-position: center;
         height: 1.5em;
         // width: 200px;
         margin: 0px 10px;
+        // z-index: 2;
 
         transform: rotate(0deg);
         transition-duration: .2s;
