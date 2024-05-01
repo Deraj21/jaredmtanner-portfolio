@@ -1,7 +1,7 @@
 
 ## I am a full-stack web application developer with 5 years of experience.
 
-![profile](images/tree-profile.jpg)
+![profile](jaredmtanner-portfolio/images/tree-profile.jpg)
 
 **I am a problem solver.**
 I really enjoy my work when I am given a problem to solve rather than a website to code. I like sinking my teeth into a difficult challenge that makes me think outside the box, and find an innovative solution.
