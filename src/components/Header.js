@@ -1,4 +1,6 @@
 import React from 'react';
+import github from '../media/GitHub_Logo_White.png'
+import linkedin from '../media/Logo-White-48px-TM.png'
 
 export default function Header(props) {
 
@@ -16,18 +18,12 @@ export default function Header(props) {
                 <span>{phoneNum}</span>
             </div>
             <div className="jumbotron-social">
-                <ul className="ul-social">
-                    <li className="li-social-links">
-                        <a className="social" href={links.github} target="_blank">
-                            <div className="logo github-logo"></div>
-                        </a>
-                    </li>
-                    <li className="li-social-links">
-                        <a className="social" href={links.linkedin} target="_blank">
-                            <div className="logo linkedin-logo"></div>
-                        </a>
-                    </li>
-                </ul>
+                <a className="social" href={links.github} target="_blank">
+                    <img src={github} className="logo github-logo" />
+                </a>
+                <a className="social" href={links.linkedin} target="_blank">
+                    <img src={linkedin} className="logo linkedin-logo" />
+                </a>
             </div>
             {/* <div id="down-arrow">
                 <span><a href="#about"><i className="fa fa-chevron-down" aria-hidden="true"></i></a></span>

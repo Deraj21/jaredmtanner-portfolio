@@ -13,7 +13,7 @@ export default function Contact(props) {
                     <h2 className="white-text">Contact Me</h2>
                 </div>
                 <div className="contact-info small">
-                    <span>{email}</span>{"  |  "}
+                    <span>{email}</span>
                     <span>{phoneNum}</span>
                 </div>
                 <div className="contact-form content-body">

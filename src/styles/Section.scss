@@ -1,3 +1,5 @@
+@use 'vars';
+
 .sections {
     display: flex;
     flex-direction: column;
@@ -44,6 +46,11 @@
     img[alt=dnd] {
         width: 300px;
     }
+}
 
-
+@media (max-width: vars.$phone-l) {
+    .Section {
+        padding: 5px 10px;
+        margin: 5px 5px;
+    }
 }

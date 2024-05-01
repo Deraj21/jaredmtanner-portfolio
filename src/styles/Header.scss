@@ -1,4 +1,4 @@
-@import 'vars.scss';
+@use 'vars.scss';
 
 .jumbotron {
     height: 100vh;
@@ -8,15 +8,13 @@
     display: flex;
     flex-direction: column;
 
-    @media (max-width: $size-tablet) {
-        padding: 0px 30px;
-    }
+    padding: 0px 30px;
 
     .jumbotron-text {
         /*TAGLINE UNDER NAME*/
         font-weight: 400;
         font-size: 2em;
-        color: white;
+        color: rgb(250, 250, 250);
         text-align: center;
         padding-top: 150px;
 
@@ -33,20 +31,14 @@
     }
 
     .jumbotron-social {
-        .ul-social {
-            text-align: center;
-            padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-            .li-social-links {
-                display: inline-block;
-                list-style: none;
-
-                .social {
-                    font-size: 2em;
-                    color: white;
-                    padding: 20px;
-                }
-            }
+        .social {
+            font-size: 2em;
+            color: white;
+            padding: 20px;
         }
     }
 
@@ -54,9 +46,10 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 50px;
-        width: 200px;
+        height: 1.5em;
+        // width: 200px;
         margin: 0px 10px;
+
         transform: rotate(0deg);
         transition-duration: .2s;
         transition-timing-function: ease-out;
@@ -67,16 +60,55 @@
         transition-duration: .1s;
         transition-timing-function: ease-out;
     }
+
+    .github-logo {
+        height: 1.7em;
+    }
     
     .github-logo:hover {
         transform: rotate(-5deg);
     }
     
-    .github-logo {
-        background-image: url('./media/GitHub_Logo_White.png');
-    }
+    // .github-logo {
+    //     background-image: url('./media/GitHub_Logo_White.png');
+    // }
     
-    .linkedin-logo {
-        background-image: url('./media/Logo-White-48px-TM.png');
+    // .linkedin-logo {
+    //     background-image: url('./media/Logo-White-48px-TM.png');
+    // }
+}
+
+@media  (max-width: vars.$phone-l) {
+    .jumbotron {
+        .jumbotron-text {
+            padding-top: 0px;
+            font-size: 1.5em;
+            text-align: left;
+
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        span {
+            font-size: 1em;
+        }
+
+        .jumbotron-social {
+            flex-direction: column;
+            align-items: baseline;
+
+            .social {
+                padding: 5px 0px;
+            }
+        }
+
+        .logo {
+            height: 1.3em;
+        }
+
+        .github-logo {
+            height: 1.5em;
+        }
     }
 }
