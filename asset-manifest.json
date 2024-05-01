@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jaredmtanner-portfolio/static/css/main.33b731eb.css",
+    "main.css": "/jaredmtanner-portfolio/static/css/main.7d16088e.css",
     "main.js": "/jaredmtanner-portfolio/static/js/main.89582f3d.js",
     "static/media/GitHub_Logo_White.png": "/jaredmtanner-portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
     "index.html": "/jaredmtanner-portfolio/index.html",
-    "main.33b731eb.css.map": "/jaredmtanner-portfolio/static/css/main.33b731eb.css.map",
+    "main.7d16088e.css.map": "/jaredmtanner-portfolio/static/css/main.7d16088e.css.map",
     "main.89582f3d.js.map": "/jaredmtanner-portfolio/static/js/main.89582f3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b731eb.css",
+    "static/css/main.7d16088e.css",
     "static/js/main.89582f3d.js"
   ]
 }
